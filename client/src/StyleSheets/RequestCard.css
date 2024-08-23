@@ -1,0 +1,159 @@
+body {
+  background-color: #1b0128;
+  /* background-color: #2A023D  ; */
+}
+.request-card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  opacity: 0.9;
+  box-shadow: -28px 18px 24.6px 1px rgba(48, 48, 48, 0.5);
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.request-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.request-card p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.request-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.request-card li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.approve-btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.decline-btn {
+  background-color: #f31313;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.approve-btn:hover {
+  background-color: white;
+  color: black;
+}
+.decline-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.approve-btn:disabled,
+.decline-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: black;
+}
+
+.request-item-details-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.request-item-details-header div {
+  margin: 15px;
+  width: 25%;
+}
+
+.request-item-details-header span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.request-items-content ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.request-items-content ul li div {
+  margin-right: 10px;
+  margin-left: 25px;
+  width: 25%;
+  display: flex;
+}
+
+.request-items-content ul li div input {
+  margin-left: 10px;
+  width: 80%;
+}
+
+.request-items-content ul li div span {
+  margin-top: 5px;
+}
+
+.generate-pdf-button {
+  margin: 10px;
+}
+
+.generate-pdf-button button {
+  background-color: #3e1adb;
+  width: 150px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.generate-pdf-button button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.requisition-color h2 {
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.decline-request-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(238, 230, 230, 0.887);
+}
+
+.decline-request-container {
+  position: fixed;
+  max-width: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}

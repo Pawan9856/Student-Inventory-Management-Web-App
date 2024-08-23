@@ -1,0 +1,54 @@
+.user-card-conatiner-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-card-conatiner-header h5 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.user-card-conatiner-header div {
+  width: 17%;
+}
+
+.add-user-form-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(238, 230, 230, 0.887);
+}
+
+.add-user-form-container {
+  position: fixed;
+  max-width: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.Add-user-buttons button{
+  border-radius: 20px;
+  width: 15vw;
+  height: 5vh;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  background-color: green;
+  color: black;
+  font-size: 15px;
+  color: white;
+  font-size: 20px;
+}
+.Add-user-buttons button:hover{
+  background-color:white;
+  color:black;
+  cursor: pointer;
+}
